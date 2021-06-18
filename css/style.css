@@ -144,6 +144,10 @@ img, video, audio, iframe, table, form {
   box-sizing: border-box;
 }
 
+.clearfix {
+  width: 100%;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -160,7 +164,7 @@ img, video, audio, iframe, table, form {
 /*/////// LAYOUT ////////*/
 
 .wrapper {
-  width: 960px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -253,7 +257,7 @@ header {
 
 #navbar nav a {
   display: inline-block;
-  width: 16.6666667%;
+  width: 15.6666667%;
   margin: 0;
   padding: 22px 0;
   text-transform: uppercase;
